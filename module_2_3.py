@@ -4,8 +4,8 @@ while index <= len(my_list) - 1:
     if my_list[index] < 0:
         break
     elif my_list[index] == 0:
-        index = index + 1
+        index += 1
         continue
     else:
         print(my_list[index])
-        index = index + 1
+        index += 1
